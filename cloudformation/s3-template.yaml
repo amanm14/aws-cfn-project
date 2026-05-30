@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Demo S3 Bucket
+
+Resources:
+
+  DemoBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: aman-demo-bucket-123456789
